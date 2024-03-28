@@ -1,10 +1,15 @@
 package com.example.sdkdemo
 
+import android.app.Application
+
 /**
  * @auth: njb
  * @date: 2024/3/28 13:06
  * @desc: 描述
  */
-object App {
-
+class App:Application() {
+    companion object{
+        lateinit var Instance: App
+            private set
+    }
 }
