@@ -13,8 +13,8 @@ afterEvaluate {
                 from components.release
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.example.sdkdemo'
-                artifactId = 'sdkdemo'
-                version = '1.0.1.b'
+                artifactId = 'Sdkdemo'
+                version = '1.0.1.c'
             }
         }
     }
