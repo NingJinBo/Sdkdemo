@@ -9,7 +9,6 @@ import android.app.Application
  */
 class App:Application() {
     companion object{
-        lateinit var Instance: App
-            private set
+        val instance: App by lazy { App() }
     }
 }
