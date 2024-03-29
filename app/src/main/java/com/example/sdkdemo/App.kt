@@ -9,6 +9,7 @@ import android.app.Application
  */
 class App:Application() {
     companion object{
-        val instance: App by lazy { App() }
+        val instance: App by lazy(LazyThreadSafetyMode.SYNCHRONIZED) {
+            App() }
     }
 }
