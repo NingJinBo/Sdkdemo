@@ -14,7 +14,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.example.sdkdemo'
                 artifactId = 'Sdkdemo'
-                version = '1.0.31'
+                version = '1.0.32'
             }
         }
     }
@@ -22,12 +22,12 @@ afterEvaluate {
 
 android {
     namespace 'com.example.sdkdemo'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
       //  applicationId "com.example.sdkdemo"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
