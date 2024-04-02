@@ -7,8 +7,11 @@ import android.content.Context
  * @date: 2024/3/28 13:06
  * @desc: 描述
  */
-interface AppManager {
-  fun init(context: Context)
+class AppManager {
+  companion object{
+    fun init(context: Context) {}
 
-  fun startGame(userId:Int,ip:String,playTime:Long,apkName:String,appId:String)
+    fun startGame(userId:Int,ip:String,playTime:Long,apkName:String,appId:String){}
+  }
+
 }
